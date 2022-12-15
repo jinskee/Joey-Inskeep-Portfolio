@@ -1,0 +1,126 @@
+/*Add CSS styles here*/
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #1d2124;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: #dee2e6;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #dee2e6;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #885716;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** Portfolio pieces ***/
+.portfolio-thumbnail {
+    background-color: #fff;
+    border-color: #885716;
+    border-width: 2px;
+    width: 95%;
+}
+
+.portfolio-thumbnail:hover {
+    border-color: #ebd122;
+}
+
+.portfolio-title {
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+
+#head-shot {
+    max-height: 1000px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #885716;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.jumbotron {
+    text-align: center;
+    color: rgb(203, 108, 0);
+    padding: 3%;
+    border-radius: 0px;
+    background-color: #0c5b00;
+    
+}
+
+.jumbotron h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto
+}
+
+body {
+
+    font-family: 'Montserrat', serif;
+    background-color: #f7f1fa;
+    color: #242424;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #cbaa7fee;
+    border-color: #370303c9;
+}
